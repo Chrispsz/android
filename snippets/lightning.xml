@@ -25,11 +25,11 @@
     <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
 
     <!-- frameworks/opt/net/wifi replacement for LFR -->
-    <remove-project path="frameworks/opt/net/wifi" name="LineageOS-Revived/android_frameworks_opt_net_wifi" groups="pdk" />
+    <remove-project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="LightningFastRom" />
 
         <!-- frameworks/native for LFR -->
-    <remove-project path="frameworks/native" name="LineageOS-Revived/android_frameworks_native" groups="pdk" />
+    <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
     <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="LightningFastRom" />
 
     <!-- LineageSDK replacement for LFR -->
